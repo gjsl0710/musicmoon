@@ -1,0 +1,18 @@
+Visual Studio Code 에서 Ctrl + C 입력 후 모듈을설치해주세요. 
+
+(※주의 : 일반 cmd실행말고 파일경로에서 cmd여셔서 모듈 설치하셔야합니다.)
+
+npm i disocrd.js
+npm i lyrics-finder
+npm i string-progressbar
+npm i ../include/play
+npm i ytdl-core
+npm i simple-youtube-api
+npm i soundcloud-downloader
+npm i fs
+npm i path
+
+기본적으로 config.json 에 넣어야할것입니다. token, youtube api 
+api는 구글링하시면 나오니깐 알아서 넣어주시고 node index.js 로 봇 켜주시면 정상적으로 작동됩니다.
+
+이소스는 따로 질문받지 않겠습니다. 질문 하지말아주세요.
