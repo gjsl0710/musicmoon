@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: "대기열",
   aliases: ["q"],
-  description: "Show the music queue and now playing.",
+  description: "대기열을 보여줘요!",
   async execute(message) {
     const serverQueue = message.client.queue.get(message.guild.id);
     if (!serverQueue) return message.channel.send("❌ 이 서버에서 재생되는 항목이 없어요!");

@@ -1,9 +1,9 @@
 const { canModifyQueue } = require("../util/EvobotUtil");
 
 module.exports = {
-  name: "skipto",
+  name: "재생삭제",
   aliases: ["st"],
-  description: "Skip to the selected queue number",
+  description: "재생목록에있는 노래를 삭제해요!",
   execute(message, args) {
     if (!args.length)
       return message

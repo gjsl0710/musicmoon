@@ -24,8 +24,8 @@ module.exports = {
     const search = args.join(" ");
 
     let resultsEmbed = new MessageEmbed()
-      .setTitle(`**재생하려는 노래번호로 답장**`)
-      .setDescription(`Results for: ${search}`)
+      .setTitle(`**재생하려는 노래번호로 답장해주세요!**`)
+      .setDescription(`검색어: ${search}`)
       .setColor("#F8AA2A");
 
     try {

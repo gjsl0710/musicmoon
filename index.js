@@ -1,7 +1,7 @@
 /**
  * Module Imports
  */
-const { Client, Collection } = require("discord.js");
+const { Client, Collection, DiscordAPIError, GuildMember } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
 
@@ -29,7 +29,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`${PREFIX}도와줘 그리고 ${PREFIX}시작`, { type : "LISTENING" });
+  client.user.setActivity(`노래하는문♬♪|문아 도와줘`, { type : "LISTENING" });
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);

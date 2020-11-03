@@ -3,7 +3,7 @@ const lyricsFinder = require("lyrics-finder");
 
 module.exports = {
   name: "가사",
-  aliases: ["가"],
+  aliases: ["ly"],
   description: "해당 음악의 가사를 불러옵니다",
   async execute(message) {
     const queue = message.client.queue.get(message.guild.id);
