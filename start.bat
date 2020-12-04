@@ -1,2 +1,0 @@
-npm run r
-pause
